@@ -9,3 +9,10 @@ install express to run the server on port 4040
 - Add Required Variable in app.js
 APIKey and Base_URL
 
+Second Milestone to Preare how to recieve weather data
+The same idea from my Udacity project in Web development frontEnd - Project
+
+Add nodemon to restart the server directly
+yarn add nodemon
+
+
