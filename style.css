@@ -50,7 +50,7 @@ body{
 }
 
 .holder{
-    color: white;
+    color: black;
 }
 #app{
     display: grid;
@@ -82,7 +82,7 @@ button{
 }
 
 .holder{
-    color: white;
+    color: black;
 }
 
 .entry{
@@ -95,10 +95,10 @@ button{
 }
 
 .weather entry{
-color: white
+color: black
 }
 #entryHolder{
-    color: white;
+    color: black;
     }
 
     #TH{

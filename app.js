@@ -22,4 +22,5 @@ function getWeather(){
         };
         postlocation('/news', {temp:data.main.temp, content: addLocation, date: myDate})
     });
+    getWeather();
 }
