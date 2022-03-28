@@ -4,12 +4,16 @@ weatherData = []
 const express = require('express');
 const app = express();
 const cors = require('cors');
-
+const bodyParser= require('body-parser');
+app.use(express.static('website'))
 app.use(express());
-const port = 4040;
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+const port = 5500;
+//const server =  app.listen(port, listening);
 
 app.listen(port, (req,res)=>{
-console.log(`server is up and runing on http://localhost:${port}`);
+console.log(`server is up and runing on http://127.0.0.1:${port}`);
 });
 //Adding EndPoint 
 app.get('/weather', weatherData)
