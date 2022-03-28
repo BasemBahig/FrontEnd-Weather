@@ -10,6 +10,28 @@ top: 0px;
 
 background: url(dominik-lange-ZUvF7qEIcVI-unsplash.jpg);
 }
+
+#location{
+    position: absolute;
+width: 500px;
+height: 169px;
+left: 50px;
+top: 400px;
+font-size: 20px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 144px;
+line-height: 169px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+
 h1{
 font-display: white;
 color: white;
@@ -70,4 +92,41 @@ button{
 .location{
     color: white;
     background: rgba(14, 27, 100, 0.4);
+}
+
+.weather entry{
+color: white
+}
+#entryHolder{
+    color: white;
+    }
+
+    #TH{
+        position: absolute;
+        width: 75px;
+    height: 67px;
+    left: 1103px;
+        top: 442px;
+    color: white;
+    font-size: 25px;
+
+    }
+    #TL{
+        position: absolute;
+        width: 75px;
+    height: 120px;
+    left: 500px;
+        top: 442px;
+    color: white;
+    font-size: 25px;
+
+    }
+.title{
+    position: absolute;
+    width: 75px;
+    height: 120px;
+    left: 100px;
+    top: 442px;
+color: white;
+font-size: 25px;
 }
